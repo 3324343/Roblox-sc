@@ -90,9 +90,9 @@ end)
 local AllowRunService = true
 local AllowRunServiceBind = Instance.new("BindableFunction")
 function AllowRunServiceBind.OnInvoke(args)
-    if args == "Enable" then
+    if args == "Nyala" then
         AllowRunService = true
-    elseif args == "Disable" then
+    elseif args == "Mati" then
         AllowRunService = false
     end
     local CoreGui = game:GetService("StarterGui")
