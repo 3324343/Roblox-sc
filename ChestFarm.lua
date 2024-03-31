@@ -98,7 +98,7 @@ function AllowRunServiceBind.OnInvoke(args)
     local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {
         Title = "ChestFarm",
-        Text = "Nyala/Mati ChestFarm",
+        Text = "Chest Farm By LilpanXD(⁠ツ",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
         Button1 = "Nyala",
@@ -122,7 +122,7 @@ end)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "ChestFarm",
-    Text = "Nyala/Mati ChestFarm",
+    Text = "Chest Farm By LilpanXDツ",
     Duration = math.huge,
     Callback = AllowRunServiceBind,
     Button1 = "Nyala",
