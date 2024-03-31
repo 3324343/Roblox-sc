@@ -101,8 +101,8 @@ function AllowRunServiceBind.OnInvoke(args)
         Text = "Nyala/Mati ChestFarm",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
-        Button1 = "Mati",
-        Button2 = "Nyala",
+        Button1 = "Nyala",
+        Button2 = "Mati",
     })
 end
 
