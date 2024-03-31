@@ -97,7 +97,7 @@ function AllowRunServiceBind.OnInvoke(args)
     end
     local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {
-        Title = "ChestFarm By LilpanXD",
+        Title = "ChestFarm",
         Text = "Nyala/Mati ChestFarm",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
@@ -122,17 +122,17 @@ end)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "ChestFarm",
-    Text = "Disable/Enable ChestFarm",
+    Text = "Nyala/Mati ChestFarm",
     Duration = math.huge,
     Callback = AllowRunServiceBind,
-    Button1 = "Enable",
-    Button2 = "Disable",
+    Button1 = "Nyala",
+    Button2 = "Mati",
 })
 task.spawn(function()
     while true and task.wait(.5) do
         if AllowRunService == true then
             local ohString1 = "SetTeam"
-            local ohString2 = "Pirates"
+            local ohString2 = "Marines"
 
             game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(ohString1, ohString2)
         end
