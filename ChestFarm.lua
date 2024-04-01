@@ -69,7 +69,7 @@ function Teleport()
         end)
     end
 end
-local veryImportantWaitTime = 0.1
+local veryImportantWaitTime = 0.3
 task.spawn(function()
     while task.wait(veryImportantWaitTime) do
         pcall(function()
