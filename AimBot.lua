@@ -11,7 +11,7 @@ if not _G.Aimbot then
     __Luable = {["ACM"] = {"discord.gg/rickrolll",{{game.PlaceId,{"__BloxFruits","__BuildABoat","__KingLegacy","__BladeBall","__SolsRNG"}},
     {tostring, loadstring},{"luable.top","<3"},{"x2neptune.tech"}},{3, 5, 1, 4, 2}}}i = {(__Luable["ACM"])};v = {"iRS", i[1]};
     __ACM = {["A"] = v[2],["C"] = i,["M"] = {".".."\108\117\97",true,"https://raw.githubusercontent.com/ZoiIntra/__Script/main/__Alchemy/"}}
-    __AlchemyOnTop = {function(__P)
+    __LilpanXD = {function(__P)
     if __P == 2753915549 then return {__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]](__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]])}
     elseif __P == 4442272183 then return {__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]](__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]])}
     elseif __P == 7449423635 then return {__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]](__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]])}
@@ -30,7 +30,7 @@ else
     __Luable = {["ACM"] = {"discord.gg/rickrolll",{{game.PlaceId,{"__Aimbot","__Aimgay","__Aimslient","__Aimkui","GGEzRunner"}},
     {tostring, loadstring},{"luable.top","<3"},{"x2neptune.tech"}},{3, 5, 1, 4, 2}}}i = {(__Luable["ACM"])};v = {"iRS", i[1]};
     __ACM = {["A"] = v[2],["C"] = i,["M"] = {".".."\108\117\97",true,"https://raw.githubusercontent.com/ZoiIntra/__Script/main/__Alchemy/"}}
-    __AlchemyOnTop = {function(__P)
+    __LilpanXD = {function(__P)
     if __P == 2753915549 then return {__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]](__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]])}
     elseif __P == 4442272183 then return {__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]](__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]])}
     elseif __P == 7449423635 then return {__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]](__ACM["A"][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]][__ACM["C"][1][3][5]][__ACM["C"][1][3][3]])} end
