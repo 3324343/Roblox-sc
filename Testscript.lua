@@ -140,11 +140,14 @@ task.spawn(function()
     end
 end)
 
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "DEVELOPER ⏬",
-    Text = "5ily#0000",
-    Duration = math.huge,
+    local CoreGui = game:GetService("StarterGui")
+    CoreGui:SetCore("SendNotification", {
+        Title = "DEVELOPER",
+        Text = "5ily#0000",
+        Duration = math.huge,
+        Callback = AllowRunServiceBind,
+    })
+end
 
 task.spawn(function()
     while true and task.wait() do
