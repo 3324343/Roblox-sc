@@ -104,6 +104,7 @@ function AllowRunServiceBind.OnInvoke(args)
         Callback = AllowRunServiceBind,
         Button1 = "on",
         Button2 = "off",
+        Logo = "https://cdn.discordapp.com/avatars/1163562149415747615/cc281554a3c8b1040d8faa71725f385d?size=256"
     })
 end
 
