@@ -129,7 +129,7 @@ CoreGui:SetCore("SendNotification", {
     Callback = AllowRunServiceBind,
     Button1 = "ON",
     Button2 = "OFF",
-    Logo = "https://cdn.discordapp.com/avatars/1163562149415747615/cc281554a3c8b1040d8faa71725f385d?size=256",
+    Icon = "https://cdn.discordapp.com/avatars/1163562149415747615/cc281554a3c8b1040d8faa71725f385d?size=256",
 })
 task.spawn(function()
     while true and task.wait(.5) do
