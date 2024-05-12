@@ -1,3 +1,4 @@
+Logo = true
 highChestOnly = true
 StopItemLegendary = true
 godsChalicSniper = false
@@ -98,7 +99,7 @@ function AllowRunServiceBind.OnInvoke(args)
     end
     local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {
-        Title = "===[CHEST FARMING]===",
+        Title = "[CHEST FARMING]",
         Text = "Chest Farm By 5ily#0000",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
@@ -123,7 +124,7 @@ end)
 
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "===[CHEST FARMING]===",
+    Title = "[CHEST FARMING]",
     Text = "Chest Farm By 5ily#0000",
     Duration = math.huge,
     Callback = AllowRunServiceBind,
