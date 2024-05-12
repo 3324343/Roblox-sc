@@ -104,6 +104,7 @@ function AllowRunServiceBind.OnInvoke(args)
         Callback = AllowRunServiceBind,
         Button1 = "ON",
         Button2 = "OFF",
+        Icon = "rbxassetid://10496469321",
     })
 end
 
