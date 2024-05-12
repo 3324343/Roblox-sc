@@ -104,7 +104,7 @@ function AllowRunServiceBind.OnInvoke(args)
         Callback = AllowRunServiceBind,
         Button1 = "ON",
         Button2 = "OFF",
-        Icon = "rbxassetid://10496469321",
+        Icon = "rbxassetid://6768917255",
     })
 end
 
@@ -129,6 +129,7 @@ CoreGui:SetCore("SendNotification", {
     Callback = AllowRunServiceBind,
     Button1 = "ON",
     Button2 = "OFF",
+    Icon = "rbxassetid://6768917255",
 })
 task.spawn(function()
     while true and task.wait(.5) do
