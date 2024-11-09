@@ -1,5 +1,5 @@
 StopItemLegendary = true
-highChestOnly = true
+highChestOnly = false
 godsChalicSniper = false
 repeat task.wait(2) until game:IsLoaded()
 local PlaceID = game.PlaceId
