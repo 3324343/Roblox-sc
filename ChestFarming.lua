@@ -1,7 +1,7 @@
 StopItemLegendary = true
 highChestOnly = false
 godsChalicSniper = false
-repeat task.wait(15) until game:IsLoaded()
+repeat task.wait(1000) until game:IsLoaded()
 local PlaceID = game.PlaceId
 local AllIDs = {}
 local foundAnything = ""
@@ -54,7 +54,7 @@ function TPReturner()
                     wait()
                     game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
                 end)
-                wait(15)
+                wait(1000)
             end
         end
     end
@@ -70,7 +70,7 @@ function Teleport()
         end)
     end
 end
-local veryImportantWaitTime = 1200
+local veryImportantWaitTime = 5000
 task.spawn(function()
     while task.wait(veryImportantWaitTime) do
         pcall(function()
@@ -104,7 +104,7 @@ function AllowRunServiceBind.OnInvoke(args)
         Callback = AllowRunServiceBind,
         Button1 = "ON",
         Button2 = "OFF",
-        Icon = "rbxassetid://6768917255",
+        Image = "rbxassetid://4483362458",
     })
 end
 
@@ -132,7 +132,7 @@ CoreGui:SetCore("SendNotification", {
     Icon = "rbxassetid://6768917255",
 })
 task.spawn(function()
-    while true and task.wait(.15) do
+    while true and task.wait(.1000) do
         if AllowRunService == true then
             local ohString1 = "SetTeam"
             local ohString2 = "Marines"
