@@ -1,7 +1,7 @@
 StopItemLegendary = true
 highChestOnly = false
 godsChalicSniper = false
-repeat task.wait(7) until game:IsLoaded()
+repeat task.wait(10) until game:IsLoaded()
 local PlaceID = game.PlaceId
 local AllIDs = {}
 local foundAnything = ""
