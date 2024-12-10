@@ -1,7 +1,7 @@
 StopItemLegendary = true
 highChestOnly = false
 godsChalicSniper = false
-repeat task.wait(5) until game:IsLoaded()
+repeat task.wait(7) until game:IsLoaded()
 local PlaceID = game.PlaceId
 local AllIDs = {}
 local foundAnything = ""
@@ -70,7 +70,7 @@ function Teleport()
         end)
     end
 end
-local veryImportantWaitTime = 120
+local veryImportantWaitTime = 150
 task.spawn(function()
     while task.wait(veryImportantWaitTime) do
         pcall(function()
@@ -132,7 +132,7 @@ CoreGui:SetCore("SendNotification", {
     Icon = "rbxassetid://6768917255",
 })
 task.spawn(function()
-    while true and task.wait(.5) do
+    while true and task.wait(.7) do
         if AllowRunService == true then
             local ohString1 = "SetTeam"
             local ohString2 = "Marines"
