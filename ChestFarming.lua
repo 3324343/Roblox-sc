@@ -132,7 +132,7 @@ CoreGui:SetCore("SendNotification", {
     Icon = "rbxassetid://6768917255",
 })
 task.spawn(function()
-    while true and task.wait(.15) do
+    while true and task.wait(.5) do
         if AllowRunService == true then
             local ohString1 = "SetTeam"
             local ohString2 = "Marines"
