@@ -1,7 +1,7 @@
 StopItemLegendary = true
 highChestOnly = false
 godsChalicSniper = false
-repeat task.wait(2) until game:IsLoaded()
+repeat task.wait(5) until game:IsLoaded()
 local PlaceID = game.PlaceId
 local AllIDs = {}
 local foundAnything = ""
@@ -70,7 +70,7 @@ function Teleport()
         end)
     end
 end
-local veryImportantWaitTime = 70
+local veryImportantWaitTime = 120
 task.spawn(function()
     while task.wait(veryImportantWaitTime) do
         pcall(function()
