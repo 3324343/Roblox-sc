@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LilpanXD/Roblox-sc/main/ChestFarming.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LilpanXD/Roblox-sc/main/ChestFarm.lua"))()
